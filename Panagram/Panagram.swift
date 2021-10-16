@@ -109,7 +109,6 @@ class Panagram {
         case .quit:
             shouldQuit = true
         default:
-          //6
           consoleIO.writeMessage("Unknown option \(value)", to: .error)
         }
       }
